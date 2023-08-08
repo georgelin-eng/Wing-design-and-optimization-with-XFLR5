@@ -3,16 +3,13 @@ For information on structural design of wings: [Aerotoolbox. Wing structural des
 For information on optimizing aircraft wings: [Design Informatics Lab. Optimization of an Aircraft Wing
 ](https://designinformaticslab.github.io/_teaching//designopt/projects/2016/desopt_2016_08.pdf)
 
-
-> [! Wing Design Process] 
-> 1. Low reynolds and high lift airfoils (see [http://airfoiltools.com](http://airfoiltools.com/search/index "http://airfoiltools.com/search/index") and UIUC Airfoil Data Site)
-> 2. 2D analysis in XFLR5
-> 3. Airfoils shortlist
-> 4. 3D wing testing with a select few combinations in XFLR5
-> 5. Selection of best airfoil combinations for wing and tail
-> 6. Adjusting wing parameters to meet specifications   
-
-
+## Wing Design Process
+1. Low reynolds and high lift airfoils (see [http://airfoiltools.com](http://airfoiltools.com/search/index "http://airfoiltools.com/search/index") and UIUC Airfoil Data Site)
+2. 2D analysis in XFLR5
+3. Airfoils shortlist
+4. 3D wing testing with a select few combinations in XFLR5
+5. Selection of best airfoil combinations for wing and tail
+6. Adjusting wing parameters to meet specifications   
 
 ---
 
@@ -70,16 +67,16 @@ Go to [http://airfoiltools.com](http://airfoiltools.com) and the [UIUC Airfoil D
 
 | Common Polars                                | Graph examples                                                                                                                                                                                              | Optimal Characteristics                                                             |     
 | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | 
-| Cl vs AOA                                    | ![[Pasted image 20230807211258.png]]                                                                                                                                                                        | Aim for something that has soft stall (smoothly decreases after peak) and a good Cl |     |
+| Cl vs AOA                                    | ![](https://github.com/georgelin-eng/Wing-design-and-optimization-with-XFLR5/blob/main/Pasted%20image%2020230807211258.png)                                                                                                                                                                    | Aim for something that has soft stall (smoothly decreases after peak) and a good Cl |     |
 | Cl/Cd vs AOA (lift-to-drag coeff.)           | **![](https://lh4.googleusercontent.com/bCyiAMT6agy6Rihcx1RlT57Tn1WVyE51feWd55L6bcbEJuf0XvlkckTI92FhwPhwEFQSkblHLfppUYwJ0aAczO4Fa0zLCxWhxauucxpGVPEtAS1sqZ2tghV1T_3b1zNhGT27o8jLhkH0r6XYWQKaWquVmg=s2048)** | Aim for a curve that has a broad range of optimal lift-drag coeff.                  |     |
-| Cm vs AOA                                    | ![[Pasted image 20230807213440.png]]                                                                                                                                                                        | Aim for something near zero or negative for expected AOAs. The graph should also have a gentle slope.                           |     |
-| Elliptical curve (optimal lift distribution) | ![[Pasted image 20230807212431.png]]                                                                                                                                                                        | Adjust taper ratio and wing twist to get a more optimal lift curve                  |     |
+| Cm vs AOA                                    | ![](https://github.com/georgelin-eng/Wing-design-and-optimization-with-XFLR5/blob/main/Pasted%20image%2020230807213440.png)                                                                                                                                                                        | Aim for something near zero or negative for expected AOAs. The graph should also have a gentle slope.                           |     |
+| Elliptical curve (optimal lift distribution) | ![](https://github.com/georgelin-eng/Wing-design-and-optimization-with-XFLR5/blob/main/Pasted%20image%2020230807212431.png)                                                                                                                                                                     | Adjust taper ratio and wing twist to get a more optimal lift curve                  |     |
 
 
 
 
 # Other Relevant Analysis
 
-![[Pasted image 20230807212158.png]]
+![](https://github.com/georgelin-eng/Wing-design-and-optimization-with-XFLR5/blob/main/Pasted%20image%2020230807212158.png)
 
 Hinge moments will also need to be calculated for ailerons so that servos have the necessary torque. This analysis is done in XFOIL.
