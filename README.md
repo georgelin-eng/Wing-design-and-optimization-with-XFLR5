@@ -31,7 +31,7 @@ Go to [http://airfoiltools.com](http://airfoiltools.com) and the [UIUC Airfoil D
     - Easy to manufacture
 
 ### Airfoil terminology
-![[Pasted image 20230807210958.png]]
+![](https://github.com/georgelin-eng/Wing-design-and-optimization-with-XFLR5/blob/main/Pasted%20image%2020230807210958.png)
 
 |Parameter|Effects|General Guidelines|
 |---|---|---|
