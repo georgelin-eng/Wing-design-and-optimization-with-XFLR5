@@ -49,7 +49,7 @@ Go to [http://airfoiltools.com](http://airfoiltools.com) and the [UIUC Airfoil D
 
 # Wings
 
-![[Pasted image 20230807211008.png]]
+![](https://github.com/georgelin-eng/Wing-design-and-optimization-with-XFLR5/blob/main/Pasted%20image%2020230807211008.png)
 
 |Parameter|Effects|General Guidelines|
 |---|---|---|
